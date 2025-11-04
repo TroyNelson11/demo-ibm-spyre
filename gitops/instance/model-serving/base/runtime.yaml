@@ -1,3 +1,5 @@
+---
+# TODO: convert to a runtime-template
 apiVersion: serving.kserve.io/v1alpha1
 kind: ServingRuntime
 metadata:

@@ -22,8 +22,8 @@ spec:
       name: ""
       resources:
         limits:
-          cpu: '32'
-          memory: 64Gi
+          # cpu: '32'
+          # memory: 64Gi
           ibm.com/spyre_pf: "1"
         requests:
           cpu: '4'

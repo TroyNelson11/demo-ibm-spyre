@@ -6,3 +6,4 @@ resources:
 
   # oc kustomize https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/components/operators/rhods-operator/operator/overlays/stable-2.22?ref=v0.20
   - operator.yaml
+  - instance

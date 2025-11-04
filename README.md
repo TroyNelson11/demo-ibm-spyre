@@ -19,3 +19,16 @@ oc apply -k https://github.com/redhat-na-ssa/demo-ibm-spyre/demo/web-terminal
 # delete old web terminal
 $(wtoctl | grep 'oc delete')
 ```
+
+Setup Operators
+
+```sh
+oc apply -k gitops
+```
+
+Setup Model Serving Demo
+
+```sh
+# setup demo model serving
+oc apply -k demo/spyre
+```

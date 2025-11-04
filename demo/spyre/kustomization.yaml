@@ -6,3 +6,4 @@ resources:
 
 components:
   - ../../gitops/branding
+  - ../../gitops/instance

@@ -1,6 +1,8 @@
 # demo-ibm-spyre
+> [!IMPORTANT]  
+ This demo has been created for use with IBM Spyre Hardware on OCP.  
 
-Use IBM Spyre Hardware on OCP
+IBM Spyre hardware must be installed first before executing this script.
 
 ## Setup OCP Web Terminal
 

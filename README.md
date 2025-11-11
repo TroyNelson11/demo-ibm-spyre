@@ -9,7 +9,7 @@ This demo has been created for use with IBM Spyre Hardware on the Red Hat OpenSh
 - OpenShift Web Terminal (installed via Red Hat OpenShift Operators menu)
 
 
-### Install the [OpenShift Web Terminal](https://docs.openshift.com/container-platform/4.12/web_console/web_terminal/installing-web-terminal.html)
+## Install the [OpenShift Web Terminal](https://docs.openshift.com/container-platform/4.12/web_console/web_terminal/installing-web-terminal.html)
 
 > [!IMPORTANT]  
 > following icon should appear in the top right of the OpenShift web console after you have installed the operator. Clicking this icon launches the web terminal.
@@ -18,10 +18,10 @@ This demo has been created for use with IBM Spyre Hardware on the Red Hat OpenSh
 
 NOTE: Reload the page in your browser if you do not see the icon after installing the operator.
 
-### Mannual Installation
+## Mannual Installation
 If you do not wish to use the 'Quick Start', you may mannually perform the demo installation steps using the following instructions. 
 
-### Quick Start
+## Quick Start
 
 > [!IMPORTANT]  
 > Run the following commands from the enhanced web terminal

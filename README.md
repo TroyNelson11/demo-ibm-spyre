@@ -10,17 +10,6 @@ This demo has been created for use with IBM Spyre Hardware on the Red Hat OpenSh
 
 ### Install the [OpenShift Web Terminal](https://docs.openshift.com/container-platform/4.12/web_console/web_terminal/installing-web-terminal.html)
 
-### Rationale
-
-- Provide a consistent terminal experience for those using Microsoft OS or MacOS
-- Minimize context switching
-
-### Takeaways
-
-- Many times we are shoulder surfing during deployments and this minimizes issues with different OSs (bash, zsh, etc.)
-- You can do the rest of this deployment in the terminal with your new user
-
-
 > [!IMPORTANT]  
 > following icon should appear in the top right of the OpenShift web console after you have installed the operator. Clicking this icon launches the web terminal.
 

@@ -1,11 +1,15 @@
 # demo-ibm-spyre
-> [!IMPORTANT]  
- This demo has been created for use with IBM Spyre Hardware on the Red Hat OpenShift platform.  IBM Spyre hardware must be installed first before executing this demo script.
+This demo has been created for use with IBM Spyre Hardware on the Red Hat OpenShift platform.  The following prerequisites must be satisfied before executing this demo script.
 
-## Install the web terminal
-### Objectives
+## Prerequisites
 
-- Subscribing the Web Terminal Operator
+- Nvidia GPU hardware or cloud provider with GPU instances
+- OpenShift 4.11+ 
+- OpenShift AI 2.25+
+- IBM AIU Spyre 1.0 (DD2)
+- OpenShift Web Terminal 
+
+### Install the [OpenShift Web Terminal](https://docs.openshift.com/container-platform/4.12/web_console/web_terminal/installing-web-terminal.html)
 
 ### Rationale
 
@@ -17,16 +21,9 @@
 - Many times we are shoulder surfing during deployments and this minimizes issues with different OSs (bash, zsh, etc.)
 - You can do the rest of this deployment in the terminal with your new user
 
-## Steps
-- [ ] Apply the subscription object
 
-      oc apply -f configs/00/web-terminal-subscription.yaml
-
-
-
-### Install the [OpenShift Web Terminal](https://docs.openshift.com/container-platform/4.12/web_console/web_terminal/installing-web-terminal.html)
-
-The following icon should appear in the top right of the OpenShift web console after you have installed the operator. Clicking this icon launches the web terminal.
+> [!IMPORTANT]  
+> following icon should appear in the top right of the OpenShift web console after you have installed the operator. Clicking this icon launches the web terminal.
 
 ![Web Terminal](docs/images/web-terminal.png "Web Terminal")
 
